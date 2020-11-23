@@ -1,3 +1,38 @@
 body{
+  font-family: 'NerkoOne-Regular';
+  color: white;
+  border: 50px solid #a8dadc;
   text-align: center;
+  background-color: #1d3557;
+  border-top: 0px;
+  margin: 0px 0px 0px 0px;
+  padding-top: 10px;
+}
+
+/* Utilizar una fuente importada */
+@font-face {
+  src: url(NerkoOne-Regular.ttf);
+  font-family: 'NerkoOne-Regular';
+}
+
+/* Añadimos pading para formatear el paragrafo */
+p{
+  padding-top: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#button{
+  font-family: 'NerkoOne-Regular';
+  font-size: 1em;
+  background-color: orange;
+  border-radius: 10px;
+  color: black;
+  height: 80px;
+  width: 150px;
+}
+
+.userinput{
+  font-size: 1.5em;
+  margin-bottom: 10px;
 }
